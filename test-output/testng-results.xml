@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23548" started-at="2021-01-20T19:46:15 IST" finished-at="2021-01-20T19:46:38 IST">
+  <suite name="Default suite" duration-ms="22434" started-at="2021-01-20T20:19:27 IST" finished-at="2021-01-20T20:19:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23548" started-at="2021-01-20T19:46:15 IST" finished-at="2021-01-20T19:46:38 IST">
+    <test name="Default test" duration-ms="22434" started-at="2021-01-20T20:19:27 IST" finished-at="2021-01-20T20:19:50 IST">
       <class name="TestNGLoginTest">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:TestNGLoginTest@27a5f880]" name="setUpTest" is-config="true" duration-ms="9619" started-at="2021-01-20T19:46:15 IST" finished-at="2021-01-20T19:46:24 IST">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:TestNGLoginTest@654c7d2d]" name="setUpTest" is-config="true" duration-ms="6610" started-at="2021-01-20T20:19:27 IST" finished-at="2021-01-20T20:19:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:TestNGLoginTest@27a5f880]" name="Login" duration-ms="11645" started-at="2021-01-20T19:46:24 IST" finished-at="2021-01-20T19:46:36 IST">
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestNGLoginTest@654c7d2d]" name="Login" duration-ms="13875" started-at="2021-01-20T20:19:34 IST" finished-at="2021-01-20T20:19:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="TearDownTest()[pri:0, instance:TestNGLoginTest@27a5f880]" name="TearDownTest" is-config="true" duration-ms="2208" started-at="2021-01-20T19:46:36 IST" finished-at="2021-01-20T19:46:38 IST">
+        <test-method status="PASS" signature="TearDownTest()[pri:0, instance:TestNGLoginTest@654c7d2d]" name="TearDownTest" is-config="true" duration-ms="1794" started-at="2021-01-20T20:19:48 IST" finished-at="2021-01-20T20:19:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDownTest -->
