@@ -38,7 +38,7 @@ public class TestNGLoginTest
 	public static void Login() throws Exception
 	{
 		test = extent.createTest("Login","This is a test to validate Login to Angular Project");
-		String baseurl = "http://localhost:4200/login?returnUrl=%2Fhome";
+		String baseurl = "https://angular-spring-demo.azurewebsites.net/";
 		
 		driver.get(baseurl);
 		test.pass("Navigated to Website");
@@ -58,7 +58,7 @@ public class TestNGLoginTest
 		}
 		
 		test.pass("Comparison of Website Title Done");
-		LoginPage.userName(driver).sendKeys("admin");
+		/*LoginPage.userName(driver).sendKeys("admin");  // Remove following lines when we run full pipeline
 		test.pass("Entered UserName");
 		LoginPage.password(driver).sendKeys("password");
 		test.pass("Entered Password");
