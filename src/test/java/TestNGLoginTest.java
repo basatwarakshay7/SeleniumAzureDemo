@@ -28,7 +28,7 @@ public class TestNGLoginTest
 		htmlReporter = new ExtentSparkReporter("extentReport.html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/src/main/java/utilities/chromedriver");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/src/main/java/utilities/chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
 		driver = new ChromeDriver(options);
