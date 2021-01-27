@@ -58,7 +58,7 @@ public class TestNGLoginTest
 		}
 		
 		test.pass("Comparison of Website Title Done");
-		/*LoginPage.userName(driver).sendKeys("admin");  // Remove following lines when we run full pipeline
+		LoginPage.userName(driver).sendKeys("admin");  // Remove following lines when we run full pipeline
 		test.pass("Entered UserName");
 		LoginPage.password(driver).sendKeys("password");
 		test.pass("Entered Password");
